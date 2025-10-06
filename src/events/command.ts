@@ -1,8 +1,8 @@
 import { Events, MessageFlags } from 'discord.js';
 
 import { Event } from '@/core';
-import { forceReply } from '@/utils';
-import logger from '@/utils/logger';
+import { forceReply } from '@/libs/utils';
+import logger from '@/libs/utils/logger';
 
 export const command = new Event({
   name: Events.InteractionCreate,

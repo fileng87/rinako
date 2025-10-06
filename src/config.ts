@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import logger from './utils/logger';
+import logger from './libs/utils/logger';
 
 const envSchema = z.object({
   DISCORD_TOKEN: z.string(),
